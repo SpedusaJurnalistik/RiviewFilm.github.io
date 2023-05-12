@@ -9,6 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,15 +21,15 @@
         <!-- Head Section Start-->
         <div class="w-full flex justify-center items-center h-[100vh] z-[100] relative lg:scale-[1.5]">
             <div class="w-full relative h-64 flex justify-center">
-                <h1 id="tes" onclick="full()" class="border h-fit rounded-l-full mr-[255px] mt-2 pl-[10px] pr-4 font-medium text-white text-sm animate__animated animate__fadeInLeftBig">
+                <h1 class="border h-fit rounded-l-full mr-[255px] mt-2 pl-[10px] pr-4 font-medium text-white text-sm animate__animated animate__fadeInLeftBig">
                     Hina Amano</h1>
-                <h1 onclick="tes1( )"
+                <h1
                     class="border h-fit rounded-r-full ml-[238px] mt-5 pl-1 pr-[10px] font-medium text-white text-sm absolute animate__animated animate__fadeInRightBig">
                     Hodaka Morishima</h1>
             </div>
-            <img src="./assets/img/karakter.png" class="absolute w-[190px] -mt-[410px] z-10 animate__animated animate__fadeInUp " alt="">
+            <img id="karakter" src="./assets/img/karakter.png" class="absolute w-[190px] -mt-[410px] z-10 animate__animated animate__fadeInUp animatedVertical" alt="">
             <img src="./assets/img/text.png" class="z-30 w-[250px] absolute animate__animated animate__fadeIn animate__fast animate__delay-1s" alt="">
-            <img src="./assets/img/cloud.png" class="absolute w-[400px] z-20 scale-125 animate__animated animate__fadeInUp " alt="">
+            <img src="./assets/img/cloud.png" class="absolute w-[400px] z-20 scale-125 animate__animated animate__fadeInUp" alt="">
         </div>
 
         <!-- Head Section End -->
@@ -45,7 +46,7 @@
                         minutes</h1>
                 </div>
                 <div
-                    class="border max-w-[450px] mx-auto mt-3 rounded-xl bg-white/5 z-10 filter backdrop-blur px-1 py-2 shadow-xl">
+                    class="border max-w-[450px] mx-auto mt-3 rounded-xl bg-black/10 z-10 filter backdrop-blur px-1 py-2 shadow-xl">
                     <h1 class="mx-3 text-white  font-light  text-justify text-[12px]">
                         Hodaka Morishima, yang berjuang untuk membiayai dirinya sendiri secara finansial berakhir dengan
                         pekerjaan di penerbit kecil-kecilan. Hina Amano di saat yang bersamaan juga sedang mencari
@@ -62,10 +63,10 @@
         </div>
         <!-- Ringkasan Section End -->
         <!-- Photo Section Start -->
-        <div class="mt-10 ml-5 text-white font-medium text-xl">
+        <div class="mt-10 ml-5 text-white font-medium text-xl relative">
             Weathering With You Photos
         </div>
-        <div class="flex w-full justify-around mt-3 pb-10">
+        <div class="flex w-full justify-around mt-3 pb-10 relative">
             <img  src="./assets/img/photo1.png" class="w-[30%] h-[0%] transition-all duration-500 hover:scale-125"
                 alt="">
             <img src="./assets/img/photo2.png" class="w-[30%] h-[0%] transition-all duration-500 hover:scale-125"
