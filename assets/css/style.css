@@ -1,3 +1,10 @@
+body {
+    -webkit-user-select: none; /* untuk browser berbasis Webkit seperti Chrome dan Safari */
+    -moz-user-select: none; /* untuk browser berbasis Mozilla seperti Firefox */
+    -ms-user-select: none; /* untuk browser berbasis Microsoft seperti Internet Explorer */
+    user-select: none;
+  }
+  
 .animatedVertical {
   animation-name: vertical-translate;
   animation-duration: 4s;
