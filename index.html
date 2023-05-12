@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weathering With You</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -18,15 +18,14 @@
         class="w-full h-[100%] md:bg-[url('./assets/img/background.jpg')]  bg-cover bg-fixed overflow-hidden bg-no-repeat bg-none bg-center">
         <img src="./assets/img/background.jpg" class="w-full h-[105vh] fixed md:hidden" alt="">
         <!-- Navbar Start -->
-        <div class="flex border rounded-full mx-auto w-fit mt-[10%] z-[1000000] animate__animated animate__fadeInDownBig relative">
-<div class="text-white font-light px-4 text-center rounded-l-full hover:bg-black/30 transition-all pl-5">Playlist</div>
-<div class="text-white font-light cursor-pointer border-l border-r px-4  hover:bg-black/30 transition-all ">Description</div>
-<div class="text-white font-light cursor-pointer px-4  hover:bg-black/30 transition-all rounded-r-full pr-5">Profile</div>
+        <div class="flex border rounded-full mx-auto w-fit top-3 relative z-[1000000] animate__animated animate__fadeInDownBig">
+<div class="text-white font-light px-4 text-center rounded-l-full hover:bg-black/30 transition-all pl-5 lg:text-xl">Playlist</div>
+<div class="text-white font-light cursor-pointer border-l border-r px-4  hover:bg-black/30 transition-all lg:text-xl">Description</div>
+<div class="text-white font-light cursor-pointer px-4  hover:bg-black/30 transition-all rounded-r-full pr-5 lg:text-xl">Profile</div>
         </div>
-        
         <!-- Navbar End -->
         <!-- Head Section Start-->
-        <div class="w-full flex justify-center items-center h-[60vh] top-20 z-[100] relative lg:scale-[1.5]">
+        <div class="w-full flex justify-center items-center h-[60vh] top-20 lg:top-64 z-[100] relative lg:scale-[1.5]">
             <div class=" w-full text-center animate__animated animate__fadeInLeftBig overflow-hidden absolute -mt-[500px]">
                 <h1 class="text-5xl text-white font-bold">
                     Movie Riview
@@ -45,7 +44,7 @@
         </div>
         <!-- Head Section End -->
         <!-- Ringkasan Section Start -->
-        <div class="flex w-full ">
+        <div class="flex w-full lg:mt-[25%] lg:scale-125">
             <div class="w-[95%] mx-auto flex flex-col">
                 <div class="flex justify-start relative w-full max-w-[450px] mx-auto">
                     <img id="karakter2" src="./assets/img/karakter2.png" class="w-32 absolute  -mt-20 animate__animated animate__fadeInLeft animatedVertical" alt="">
@@ -70,10 +69,10 @@
         </div>
         <!-- Ringkasan Section End -->
         <!-- Photo Section Start -->
-        <div class="mt-10 ml-5 text-white font-medium text-xl relative">
+        <div class="mt-10 lg:mt-24 ml-5 text-white lg:text-center font-medium text-xl lg:text-3xl relative">
             Weathering With You Photos
         </div>
-        <div class="flex w-full justify-around mt-3 pb-10 relative">
+        <div class="flex w-full justify-around mt-3 lg:-mt-[4%] pb-10 relative lg:scale-50">
             <img  src="./assets/img/photo1.png" class="w-[30%] h-[0%] transition-all duration-500 hover:scale-125"
                 alt="">
             <img src="./assets/img/photo2.png" class="w-[30%] h-[0%] transition-all duration-500 hover:scale-125"
